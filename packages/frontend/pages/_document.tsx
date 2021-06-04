@@ -24,6 +24,24 @@ class MyDocument extends Document {
             }}
           />
           {/* End Google Tag Manager */}
+
+          {/* Global site tag (gtag.js) */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-800237180" />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-800237180');`,
+            }}
+          />
+
+          {/* Event snippet for Website traffic conversion page */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `gtag('event', 'conversion', {'send_to': 'AW-800237180/YKAgCLvc4qUCEPzMyv0C'});`,
+            }}
+          />
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
