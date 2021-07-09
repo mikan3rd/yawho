@@ -45,7 +45,7 @@
     "globby": "11.0.3",
     "prettier": "2.3.0",
     "prisma": "2.24.1",
-    "ts-node": "9.1.1",
+    "ts-node": "10.1.0",
     "tsconfig-paths": "3.9.0",
     "typescript": "4.3.2"
   }
